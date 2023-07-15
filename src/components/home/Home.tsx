@@ -1,8 +1,6 @@
 import { useState } from 'react'
 import { Transition } from '@headlessui/react'
 import { v4 as uuidv4 } from 'uuid'
-import diamondSvg from '../../assets/images/diamond.svg'
-import rectangleSvg from '../../assets/images/Rectangle.png'
 import { Cart } from '../cart'
 import { useCombinedItems } from '../../hooks/useCombinedItems'
 import { useCartItems } from '../../hooks/useCartItems'
@@ -42,7 +40,7 @@ export const Home = () => {
           <div className='flex items-center w-full justify-start ml-5'>
             <h2 className='text-[#0B7171] text-[35px] font-medium'>Lotus</h2>
             <img
-              src={diamondSvg}
+              src='/assets/images/diamond.svg'
               alt='diamond-svg'
               className='w-5 h-5 ml-4 mt-1'
             />
@@ -53,7 +51,7 @@ export const Home = () => {
             </h1>
             <div className='bg-white rounded-full w-8 h-8 flex items-center justify-center'>
               <img
-                src={rectangleSvg}
+                src='/assets/images/Rectangle.png'
                 alt='rectangles-svg'
                 className='w-3 h-1'
               />
@@ -88,7 +86,7 @@ export const Home = () => {
                   onClick={() =>
                     addItemToCartHandler(
                       'Lotus Jar',
-                      ['/src/assets/images/JAR.png'],
+                      ['/assets/images/JAR.png'],
                       'Green Fruit Jelly',
                       4.0,
                     )
@@ -124,7 +122,7 @@ export const Home = () => {
                   onClick={() =>
                     addItemToCartHandler(
                       'Lotus Mi',
-                      ['/src/assets/images/JAR.png'],
+                      ['/assets/images/JAR.png'],
                       'Green Fruit Jelly',
                       2.0,
                     )
@@ -145,7 +143,7 @@ export const Home = () => {
                   className='ml-4 w-[261px] placeholder:text-[#0B7171] placeholder:text-[15px] font-medium tracking-[-0.482px] outline-none'
                 />
                 <img
-                  src='/src/assets/images/search.png'
+                  src='/assets/images/search.png'
                   className='absolute top-3 right-4 w-5 h-5'
                   alt='search icon'
                 />
@@ -172,7 +170,7 @@ export const Home = () => {
                   </div>
                   <div className='bg-[#F6F6F6] w-[86px] h-[86px] rounded-full flex items-center justify-center'>
                     <img
-                      src='/src/assets/images/apple.png'
+                      src='/assets/images/apple.png'
                       alt='apple image'
                       className='w-12 h-12'
                     />
@@ -192,7 +190,7 @@ export const Home = () => {
                     onClick={() =>
                       addItemToCartHandler(
                         'Apple',
-                        ['/src/assets/images/apple.png'],
+                        ['/assets/images/apple.png'],
                         'Original Taste',
                         10.0,
                       )
@@ -209,17 +207,17 @@ export const Home = () => {
                   </div>
                   <div className='bg-[#F6F6F6] w-[86px] h-[86px] rounded-full flex items-center justify-center relative'>
                     <img
-                      src='/src/assets/images/cherry.png'
+                      src='/assets/images/cherry.png'
                       alt='cherry image'
                       className='w-10 h-10 absolute left-2 top-6 z-20'
                     />
                     <img
-                      src='/src/assets/images/orange.png'
+                      src='/assets/images/orange.png'
                       alt='orange image'
                       className='w-10 h-10 absolute left-5 top-4'
                     />
                     <img
-                      src='/src/assets/images/banana.png'
+                      src='/assets/images/banana.png'
                       alt='banana image'
                       className='w-10 h-10 absolute left-8 top-6 z-10'
                     />
@@ -240,9 +238,9 @@ export const Home = () => {
                       addItemToCartHandler(
                         'Triple',
                         [
-                          '/src/assets/images/cherry.png',
-                          '/src/assets/images/orange.png',
-                          '/src/assets/images/banana.png',
+                          '/assets/images/cherry.png',
+                          '/assets/images/orange.png',
+                          '/assets/images/banana.png',
                         ],
                         'Original Taste',
                         12.0,
@@ -260,7 +258,7 @@ export const Home = () => {
                   </div>
                   <div className='bg-[#F6F6F6] w-[86px] h-[86px] rounded-full flex items-center justify-center'>
                     <img
-                      src='/src/assets/images/grape.png'
+                      src='/assets/images/grape.png'
                       alt='grape image'
                       className='w-12 h-12'
                     />
@@ -280,7 +278,7 @@ export const Home = () => {
                     onClick={() =>
                       addItemToCartHandler(
                         'Grape',
-                        ['/src/assets/images/grape.png'],
+                        ['/assets/images/grape.png'],
                         'Original Taste',
                         14.0,
                       )

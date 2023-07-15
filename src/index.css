@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: 'Future';
-  src: url('./assets/fonts/Future-Face.ttf');
+  src: url('/assets/fonts/Future-Face.ttf');
   font-display: swap;
 }
 
