@@ -18,12 +18,12 @@ The Bisflow Task app was built with React, Typescript, and TailwindCSS as a sing
 - Headless UI - A set of completely unstyled, fully accessible UI components, designed to integrate beautifully with Tailwind CSS.
   
 ## App Structure
-src/hooks/useCartItems.ts: A custom hook that creates separated logic from UI and sets and gets data to/from local storage.
-src/hooks/useCombinedItems.ts: A custom hook that combines products.
-src/types/types.ts: Interfaces used in the app.
-src/App.tsx: Main file for rendering the app.
-src/components/home/Home.tsx: Component for rendering the list of products.
-src/components/cart/Cart.tsx: Component for display cart items.
+- src/hooks/useCartItems.ts: A custom hook that creates separated logic from UI and sets and gets data to/from local storage.
+- src/hooks/useCombinedItems.ts: A custom hook that combines products.
+- src/types/types.ts: Interfaces used in the app.
+- bsrc/App.tsx: Main file for rendering the app.
+- src/components/home/Home.tsx: Component for rendering the list of products.
+- src/components/cart/Cart.tsx: Component for display cart items.
 
 
 ## Conclusion
