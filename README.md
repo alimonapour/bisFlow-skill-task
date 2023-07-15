@@ -2,7 +2,7 @@
 The Bisflow Task app was built with React, Typescript, and TailwindCSS as a single-page application that shows products list, product names, and prices, adds to cart, removes from cart, and shows cart items.
 
 ## Demo
-[https://formaloo-todo-list-app.vercel.app/](https://vercel.com/alimonapour/bis-flow-skill-task)
+https://vercel.com/alimonapour/bis-flow-skill-task
 
 ## Features
 - Shows all products
